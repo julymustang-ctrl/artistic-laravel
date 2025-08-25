@@ -1,0 +1,69 @@
+# Laravel Framework
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumb.db
+
+# Compiled Views
+/storage/framework/views/*.php
+
+# Cache
+/bootstrap/cache/*.php
+/storage/framework/cache/data/*/*
+/storage/framework/sessions/*
+/storage/logs/*.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+/public/mix-manifest.json
+/public/js/app.js
+/public/css/app.css
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup

@@ -5,9 +5,9 @@
             <div class="col-lg-12">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp"><span>Meet Our</span></h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Expert <span>Team</span></h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">Our talented team of social media experts brings creativity, strategy, and results-driven approach to every project we handle.</p>
+                    <h3 class="wow fadeInUp"><span>Profesyonel</span></h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Ekibimiz <span>ile Tanışın</span></h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.25s">Sosyal medya ve dijital pazarlama alanında uzman ekibimiz, yaratıcılık ve sonuç odaklı yaklaşımla her projeye özel çözümler sunar.</p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -18,10 +18,10 @@
                 $teamMembers = [
                     [
                         'id' => 1,
-                        'name' => 'Cameron Williamson',
-                        'position' => 'Social Media Manager',
+                        'name' => 'Ayşe Demir',
+                        'position' => 'Sosyal Medya Yöneticisi',
                         'image' => 'team-1.jpg',
-                        'slug' => 'cameron-williamson',
+                        'slug' => 'ayse-demir',
                         'delay' => '0s',
                         'social' => [
                             'twitter' => '#',
@@ -32,10 +32,10 @@
                     ],
                     [
                         'id' => 2,
-                        'name' => 'Savannah Nguyen',
-                        'position' => 'Influencer Marketing Coordinator',
+                        'name' => 'Mehmet Kaya',
+                        'position' => 'Dijital Pazarlama Uzmanı',
                         'image' => 'team-2.jpg',
-                        'slug' => 'savannah-nguyen',
+                        'slug' => 'mehmet-kaya',
                         'delay' => '0.2s',
                         'social' => [
                             'twitter' => '#',
@@ -46,10 +46,10 @@
                     ],
                     [
                         'id' => 3,
-                        'name' => 'Leslie Alexander',
-                        'position' => 'Digital Marketing Manager',
+                        'name' => 'Elif Öztürk',
+                        'position' => 'Kreatif Direktör',
                         'image' => 'team-3.jpg',
-                        'slug' => 'leslie-alexander',
+                        'slug' => 'elif-ozturk',
                         'delay' => '0.4s',
                         'social' => [
                             'twitter' => '#',
@@ -106,7 +106,7 @@
             <div class="col-lg-12">
                 <!-- Team Button Start -->
                 <div class="team-btn wow fadeInUp" data-wow-delay="0.6s">
-                    <a href="{{ route('team') }}" class="btn-default">View All Team Members</a>
+                    <a href="{{ route('team') }}" class="btn-default">Tüm Ekibi Gör</a>
                 </div>
                 <!-- Team Button End -->
             </div>

@@ -1,8 +1,8 @@
 @extends('layouts.theme')
 
-@section('title', 'Artistic - Social Media Marketing Agency')
-@section('meta_description', 'Grow your brand with powerful social media strategies. Elevate your online presence, engage your audience, and achieve meaningful results.')
-@section('meta_keywords', 'social media marketing, brand growth, digital marketing, social media strategies, online presence')
+@section('title', 'Artistic - Sosyal Medya Pazarlama Ajansı')
+@section('meta_description', 'Güçlü sosyal medya stratejileri ile markanızı büyütün. Online varlığınızı artırın, hedef kitlenizle etkileşime geçin ve anlamlı sonuçlar elde edin.')
+@section('meta_keywords', 'sosyal medya pazarlama, marka büyütme, dijital pazarlama, sosyal medya stratejileri, online varlık')
 
 @section('content')
     <!-- Hero Section Start-->
@@ -26,14 +26,14 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h1 class="text-anime-style-2" data-cursor="-opaque">Grow Your Brand with Powerful <span>Social Media Strategies</span></h1>
-                            <p class="wow fadeInUp">Elevate your online presence, engage your audience, and achieve meaningful results with tailored social media strategies.</p>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque">Güçlü <span>Sosyal Medya Stratejileri</span> ile Markanızı Büyütün</h1>
+                            <p class="wow fadeInUp">Özel tasarlanmış sosyal medya stratejileri ile online varlığınızı artırın, hedef kitlenizle etkileşime geçin ve anlamlı sonuçlar elde edin.</p>
                         </div>
                         <!-- Section Title End -->
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.25s">
-                            <a href="{{ route('contact') }}" class="btn-default">get started</a>
+                            <a href="{{ route('contact') }}" class="btn-default">Başlayın</a>
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="satisficed-client-content">
                                 <h3><span class="counter">2500</span>+</h3>
-                                <p>satisfied clients</p>
+                                <p>Memnun Müşteri</p>
                             </div>
                         </div>
                         <!-- Satisfied Client Box End -->
@@ -134,7 +134,7 @@
                                     <h2><span class="counter">25</span>+</h2>
                                 </div>
                                 <div class="about-experience-content wow fadeInUp">
-                                    <p>Years of experience <span>Social media marketing</span></p>
+                                    <p>Yıllık deneyim <span>Sosyal medya pazarlama</span></p>
                                 </div>
                             </div>
                             <!-- About Experience Box End -->
@@ -145,14 +145,14 @@
                         <div class="about-us-content">
                             <!-- Section Title Start -->
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">About us</h3>
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Transforming brands with <span>social media</span></h2>
+                                <h3 class="wow fadeInUp">Hakkımızda</h3>
+                                <h2 class="text-anime-style-2" data-cursor="-opaque">Markaları <span>sosyal medya</span> ile dönüştürüyoruz</h2>
                             </div>
                             <!-- Section Title End -->
 
                             <!-- About Us Body Start -->
                             <div class="about-us-body wow fadeInUp" data-wow-delay="0.2s">
-                                <p>Revolutionizing Brand Identity Through Creative Social Media Strategies That Drive Engagement, Build Connections, and Deliver Results Empowering Businesses to Stand Out, Reach Their Audience.</p>
+                                <p>Yaratıcı sosyal medya stratejileri ile marka kimliğini devrim niteliğinde dönüştürüyor, etkileşim sağlıyor, bağlantılar kuruyoruz ve sonuçlar sunuyoruz. İşletmeleri öne çıkarıyor, hedef kitlelerine ulaşmalarını sağlıyoruz.</p>
                             </div>
                             <!-- About Us Body End -->
 
@@ -160,7 +160,7 @@
                             <div class="about-us-footer wow fadeInUp" data-wow-delay="0.4s">
                                 <!-- About Us Button Start -->
                                 <div class="about-us-btn">
-                                    <a href="{{ route('about') }}" class="btn-default">more about</a>
+                                    <a href="{{ route('about') }}" class="btn-default">Daha Fazla</a>
                                 </div>
                                 <!-- About Us Button End -->
 
@@ -176,8 +176,8 @@
 
                                     <!-- About Author Content Start -->
                                     <div class="about-author-content">
-                                        <h3>Sarah Mitchell</h3>
-                                        <p>Marketing Director</p>
+                                        <h3>Aylin Özkan</h3>
+                                        <p>Pazarlama Müdürü</p>
                                     </div>
                                     <!-- About Author Content End -->
                                 </div>
@@ -193,7 +193,7 @@
                                         <img src="{{ asset('images/icon-about-list-item-1.svg') }}" alt="">
                                     </div>
                                     <div class="about-list-content">
-                                        <h3>tailored marketing solutions</h3>
+                                        <h3>özel pazarlama çözümleri</h3>
                                     </div>
                                 </div>
                                 <!-- About List Item End -->
@@ -204,7 +204,7 @@
                                         <img src="{{ asset('images/icon-about-list-item-2.svg') }}" alt="">
                                     </div>
                                     <div class="about-list-content">
-                                        <h3>proactive trends tracking</h3>
+                                        <h3>proaktif trend takibi</h3>
                                     </div>
                                 </div>
                                 <!-- About List Item End -->
@@ -215,7 +215,7 @@
                                         <img src="{{ asset('images/icon-about-list-item-3.svg') }}" alt="">
                                     </div>
                                     <div class="about-list-content">
-                                        <h3>analytical performance optimization</h3>
+                                        <h3>analitik performans optimizasyonu</h3>
                                     </div>
                                 </div>
                                 <!-- About List Item End -->

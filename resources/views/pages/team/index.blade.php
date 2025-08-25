@@ -1,8 +1,8 @@
 @extends('layouts.theme')
 
-@section('title', 'Our Team - Social Media Marketing Experts')
-@section('meta_description', 'Meet our experienced team of social media marketing professionals, digital marketing managers, and creative strategists who drive success for our clients.')
-@section('meta_keywords', 'social media team, marketing experts, digital marketing professionals, social media managers, creative team')
+@section('title', 'Ekibimiz - Sosyal Medya ve Dijital Pazarlama Uzmanları')
+@section('meta_description', 'Deneyimli sosyal medya uzmanlarımız, dijital pazarlama yöneticilerimiz ve kreatif stratejistlerimizle tanışın. Müşterilerimiz için başarı getiren ekibimizi keşfedin.')
+@section('meta_keywords', 'sosyal medya ekibi, pazarlama uzmanları, dijital pazarlama profesyonelleri, sosyal medya yöneticileri, kreatif ekip')
 
 @section('content')
     <!-- Page Header Start -->
@@ -12,11 +12,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Our <span>Team</span></h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Ekibimiz <span>ile Tanışın</span></h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ route('home') }}">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">our team</li>
+                                <li class="breadcrumb-item"><a href="{{ route('home') }}">anasayfa</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">ekibimiz</li>
                             </ol>
                         </nav>
                     </div>
@@ -72,10 +72,10 @@
                     $teamMembers = [
                         [
                             'id' => 1,
-                            'name' => 'Cameron Williamson',
-                            'position' => 'Social Media Manager',
+                            'name' => 'Ayşe Demir',
+                            'position' => 'Sosyal Medya Yöneticisi',
                             'image' => 'team-1.jpg',
-                            'slug' => 'cameron-williamson',
+                            'slug' => 'ayse-demir',
                             'delay' => '0s',
                             'social' => [
                                 'twitter' => '#',
@@ -86,10 +86,10 @@
                         ],
                         [
                             'id' => 2,
-                            'name' => 'Savannah Nguyen',
-                            'position' => 'Influencer Marketing Coordinator',
+                            'name' => 'Mehmet Kaya',
+                            'position' => 'Dijital Pazarlama Uzmanı',
                             'image' => 'team-2.jpg',
-                            'slug' => 'savannah-nguyen',
+                            'slug' => 'mehmet-kaya',
                             'delay' => '0.2s',
                             'social' => [
                                 'twitter' => '#',
@@ -100,10 +100,10 @@
                         ],
                         [
                             'id' => 3,
-                            'name' => 'Leslie Alexander',
-                            'position' => 'Digital Marketing Manager',
+                            'name' => 'Elif Öztürk',
+                            'position' => 'Kreatif Direktör',
                             'image' => 'team-3.jpg',
-                            'slug' => 'leslie-alexander',
+                            'slug' => 'elif-ozturk',
                             'delay' => '0.4s',
                             'social' => [
                                 'twitter' => '#',
@@ -114,10 +114,10 @@
                         ],
                         [
                             'id' => 4,
-                            'name' => 'Brooklyn Simmons',
-                            'position' => 'Content Strategy Director',
+                            'name' => 'Can Yılmaz',
+                            'position' => 'İçerik Strateji Uzmanı',
                             'image' => 'team-4.jpg',
-                            'slug' => 'brooklyn-simmons',
+                            'slug' => 'can-yilmaz',
                             'delay' => '0s',
                             'social' => [
                                 'twitter' => '#',
@@ -128,10 +128,10 @@
                         ],
                         [
                             'id' => 5,
-                            'name' => 'Kristin Watson',
-                            'position' => 'Creative Director',
+                            'name' => 'Selin Aydın',
+                            'position' => 'Grafik Tasarım Uzmanı',
                             'image' => 'team-5.jpg',
-                            'slug' => 'kristin-watson',
+                            'slug' => 'selin-aydin',
                             'delay' => '0.2s',
                             'social' => [
                                 'twitter' => '#',
@@ -142,10 +142,10 @@
                         ],
                         [
                             'id' => 6,
-                            'name' => 'Jerome Bell',
-                            'position' => 'SEO Specialist',
+                            'name' => 'Emre Tuna',
+                            'position' => 'SEO ve Analitik Uzmanı',
                             'image' => 'team-6.jpg',
-                            'slug' => 'jerome-bell',
+                            'slug' => 'emre-tuna',
                             'delay' => '0.4s',
                             'social' => [
                                 'twitter' => '#',

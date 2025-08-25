@@ -1,8 +1,8 @@
 @extends('layouts.theme')
 
-@section('title', 'About Us - Artistic Social Media Marketing Agency')
-@section('meta_description', 'Learn about our social media marketing agency, our team, and our mission to transform brands with powerful social media strategies.')
-@section('meta_keywords', 'about us, social media agency, marketing team, company history, mission, vision')
+@section('title', 'Hakkımızda - Source of Agency | İzmir Sosyal Medya Ajansı')
+@section('meta_description', 'Source of Agency hakkında bilgi edinin. İzmir merkezli sosyal medya ajansımızın hikayesi, ekibimiz ve markalarınızı dijital dünyada büyütme misyonumuz.')
+@section('meta_keywords', 'hakkımızda, sosyal medya ajansı, izmir reklam ajansı, dijital pazarlama ekibi, source of agency')
 
 @section('content')
     <!-- Page Header Start -->
@@ -12,11 +12,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">About <span>us</span></h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Hakkı<span>mızda</span></h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ route('home') }}">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">about us</li>
+                                <li class="breadcrumb-item"><a href="{{ route('home') }}">Ana Sayfa</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Hakkımızda</li>
                             </ol>
                         </nav>
                     </div>
@@ -39,7 +39,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-img">
                                 <figure class="image-anime reveal">
-                                    <img src="{{ asset('images/about-us-image.jpg') }}" alt="">
+                                    <img src="{{ asset('images/author-image.jpg') }}" alt="Source of Agency Ekibi">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -47,10 +47,10 @@
                             <!-- About Experience Box Start -->
                             <div class="about-experience-box">
                                 <div class="about-experience-counter">
-                                    <h2><span class="counter">25</span>+</h2>
+                                    <h2><span class="counter">5</span>+</h2>
                                 </div>
                                 <div class="about-experience-content wow fadeInUp">
-                                    <p>Years of experience <span>Social media marketing</span></p>
+                                    <p>Yıllık deneyim <span>Sosyal medya pazarlama</span></p>
                                 </div>
                             </div>
                             <!-- About Experience Box End -->
@@ -61,14 +61,16 @@
                         <div class="about-us-content">
                             <!-- Section Title Start -->
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">About us</h3>
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Transforming brands with <span>social media</span></h2>
+                                <h3 class="wow fadeInUp">Hakkımızda</h3>
+                                <h2 class="text-anime-style-2" data-cursor="-opaque">Sıradışı Fikirlerimiz <span>Dijital Dünya</span> ile Buluşuyor</h2>
                             </div>
                             <!-- Section Title End -->
 
                             <!-- About Us Body Start -->
                             <div class="about-us-body wow fadeInUp" data-wow-delay="0.2s">
-                                <p>Revolutionizing Brand Identity Through Creative Social Media Strategies That Drive Engagement, Build Connections, and Deliver Results Empowering Businesses to Stand Out, Reach Their Audience.</p>
+                                <p>Source of Agency olarak ezber bozan fikirleri dijital dünyanın sınırsız gücüyle buluşturuyor, markanızı fark edilir kılıyoruz. İzmir merkezli ajansımız, sosyal medya pazarlama, dijital reklam yönetimi, web tasarım ve prodüksiyon hizmetleriyle markalarınızın dijital dönüşüm yolculuğuna eşlik ediyor.</p>
+                                
+                                <p>Her projeye yaklaşımımız; sadece görünürlük değil, anlamlı bağlantılar kurmak. Çünkü biz biliyoruz ki gerçek başarı, doğru stratejilerle hedef kitlenizle kurduğunuz güçlü ilişkilerde yatıyor.</p>
                             </div>
                             <!-- About Us Body End -->
 
@@ -76,7 +78,7 @@
                             <div class="about-us-footer wow fadeInUp" data-wow-delay="0.4s">
                                 <!-- About Us Button Start -->
                                 <div class="about-us-btn">
-                                    <a href="{{ route('contact') }}" class="btn-default">get in touch</a>
+                                    <a href="{{ route('contact') }}" class="btn-default">İletişime Geç</a>
                                 </div>
                                 <!-- About Us Button End -->
 
@@ -85,15 +87,15 @@
                                     <!-- About Author Image Start -->
                                     <div class="about-author-image">
                                         <figure class="image-anime">
-                                            <img src="{{ asset('images/author-image.jpg') }}" alt="">
+                                            <img src="{{ asset('images/author-1.jpg') }}" alt="Source of Agency Kurucu">
                                         </figure>
                                     </div>
                                     <!-- About Author Image End -->
 
                                     <!-- About Author Content Start -->
                                     <div class="about-author-content">
-                                        <h3>Sarah Mitchell</h3>
-                                        <p>Marketing Director</p>
+                                        <h3>Ahmet Yılmaz</h3>
+                                        <p>Kurucu & Yaratıcı Direktör</p>
                                     </div>
                                     <!-- About Author Content End -->
                                 </div>
@@ -106,10 +108,11 @@
                                 <!-- About List Item Start -->
                                 <div class="about-list-item wow fadeInUp">
                                     <div class="icon-box">
-                                        <img src="{{ asset('images/icon-about-list-item-1.svg') }}" alt="">
+                                        <i class="fas fa-bullseye"></i>
                                     </div>
                                     <div class="about-list-content">
-                                        <h3>tailored marketing solutions</h3>
+                                        <h3>Hedef Odaklı Stratejiler</h3>
+                                        <p>Her marka için özel olarak tasarlanan, ölçülebilir sonuçlar üreten stratejiler geliştiriyoruz.</p>
                                     </div>
                                 </div>
                                 <!-- About List Item End -->
@@ -117,10 +120,11 @@
                                 <!-- About List Item Start -->
                                 <div class="about-list-item wow fadeInUp" data-wow-delay="0.2s">
                                     <div class="icon-box">
-                                        <img src="{{ asset('images/icon-about-list-item-2.svg') }}" alt="">
+                                        <i class="fas fa-chart-line"></i>
                                     </div>
                                     <div class="about-list-content">
-                                        <h3>proactive trends tracking</h3>
+                                        <h3>Trend Analizi ve İnovasyon</h3>
+                                        <p>Dijital dünyayın nabzını tutuyor, en güncel trendleri markanızın hizmetine sunuyoruz.</p>
                                     </div>
                                 </div>
                                 <!-- About List Item End -->
@@ -128,10 +132,11 @@
                                 <!-- About List Item Start -->
                                 <div class="about-list-item wow fadeInUp" data-wow-delay="0.4s">
                                     <div class="icon-box">
-                                        <img src="{{ asset('images/icon-about-list-item-3.svg') }}" alt="">
+                                        <i class="fas fa-analytics"></i>
                                     </div>
                                     <div class="about-list-content">
-                                        <h3>analytical performance optimization</h3>
+                                        <h3>Veri Odaklı Optimizasyon</h3>
+                                        <p>Detaylı analiz ve raporlamalarla performansı sürekli optimize ediyor, ROI'nizi maksimize ediyoruz.</p>
                                     </div>
                                 </div>
                                 <!-- About List Item End -->

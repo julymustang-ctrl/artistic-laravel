@@ -26,8 +26,8 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h1 class="text-anime-style-2" data-cursor="-opaque">Güçlü <span>Sosyal Medya Stratejileri</span> ile Markanızı Büyütün</h1>
-                            <p class="wow fadeInUp">Özel tasarlanmış sosyal medya stratejileri ile online varlığınızı artırın, hedef kitlenizle etkileşime geçin ve anlamlı sonuçlar elde edin.</p>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque">Sıradışı Fikirlerimiz <span>Dijital Çağın Gücüyle</span> Buluşuyor!</h1>
+                            <p class="wow fadeInUp">Source of Agency olarak ezber bozan fikirleri dijital dünyanın sınırsız gücüyle buluşturuyor, markanızı fark edilir kılıyoruz.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -91,21 +91,33 @@
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                @for($i = 1; $i <= 6; $i++)
-                    <span><img src="{{ asset('images/client-logo-' . $i . '.svg') }}" alt=""></span>
-                @endfor
-                @for($i = 1; $i <= 6; $i++)
-                    <span><img src="{{ asset('images/client-logo-' . $i . '.svg') }}" alt=""></span>
-                @endfor
+                <span><img src="{{ asset('images/aselsan.png') }}" alt="ASELSAN"></span>
+                <span><img src="{{ asset('images/borusan.png') }}" alt="Borusan"></span>
+                <span><img src="{{ asset('images/atlas.png') }}" alt="Atlas"></span>
+                <span><img src="{{ asset('images/borusan-port.png') }}" alt="Borusan Port"></span>
+                <span><img src="{{ asset('images/dentek.png') }}" alt="Dentek"></span>
+                <span><img src="{{ asset('images/eflatun-scaled.png') }}" alt="Eflatun"></span>
+                <span><img src="{{ asset('images/aselsan.png') }}" alt="ASELSAN"></span>
+                <span><img src="{{ asset('images/borusan.png') }}" alt="Borusan"></span>
+                <span><img src="{{ asset('images/atlas.png') }}" alt="Atlas"></span>
+                <span><img src="{{ asset('images/borusan-port.png') }}" alt="Borusan Port"></span>
+                <span><img src="{{ asset('images/dentek.png') }}" alt="Dentek"></span>
+                <span><img src="{{ asset('images/eflatun-scaled.png') }}" alt="Eflatun"></span>
             </div>
 
             <div class="scrolling-content">
-                @for($i = 1; $i <= 6; $i++)
-                    <span><img src="{{ asset('images/client-logo-' . $i . '.svg') }}" alt=""></span>
-                @endfor
-                @for($i = 1; $i <= 6; $i++)
-                    <span><img src="{{ asset('images/client-logo-' . $i . '.svg') }}" alt=""></span>
-                @endfor
+                <span><img src="{{ asset('images/aselsan.png') }}" alt="ASELSAN"></span>
+                <span><img src="{{ asset('images/borusan.png') }}" alt="Borusan"></span>
+                <span><img src="{{ asset('images/atlas.png') }}" alt="Atlas"></span>
+                <span><img src="{{ asset('images/borusan-port.png') }}" alt="Borusan Port"></span>
+                <span><img src="{{ asset('images/dentek.png') }}" alt="Dentek"></span>
+                <span><img src="{{ asset('images/eflatun-scaled.png') }}" alt="Eflatun"></span>
+                <span><img src="{{ asset('images/aselsan.png') }}" alt="ASELSAN"></span>
+                <span><img src="{{ asset('images/borusan.png') }}" alt="Borusan"></span>
+                <span><img src="{{ asset('images/atlas.png') }}" alt="Atlas"></span>
+                <span><img src="{{ asset('images/borusan-port.png') }}" alt="Borusan Port"></span>
+                <span><img src="{{ asset('images/dentek.png') }}" alt="Dentek"></span>
+                <span><img src="{{ asset('images/eflatun-scaled.png') }}" alt="Eflatun"></span>
             </div>
         </div>
     </div>
@@ -146,13 +158,13 @@
                             <!-- Section Title Start -->
                             <div class="section-title">
                                 <h3 class="wow fadeInUp">Hakkımızda</h3>
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Markaları <span>sosyal medya</span> ile dönüştürüyoruz</h2>
+                                <h2 class="text-anime-style-2" data-cursor="-opaque">Teknolojiyi, İnsanı ve <span>Estetiği Birleştiririz</span></h2></h2>
                             </div>
                             <!-- Section Title End -->
 
                             <!-- About Us Body Start -->
                             <div class="about-us-body wow fadeInUp" data-wow-delay="0.2s">
-                                <p>Yaratıcı sosyal medya stratejileri ile marka kimliğini devrim niteliğinde dönüştürüyor, etkileşim sağlıyor, bağlantılar kuruyoruz ve sonuçlar sunuyoruz. İşletmeleri öne çıkarıyor, hedef kitlelerine ulaşmalarını sağlıyoruz.</p>
+                                <p>Biz sadece bir ajans değil markalarımızın dijital yol arkadaşı, yaratıcı fikirlerinin üreticisi ve etki yaratan bir güç birliğiyiz. Gücümüzü sanattan alır, inovasyondan besleniriz!</p>
                             </div>
                             <!-- About Us Body End -->
 
@@ -236,7 +248,7 @@
     {{-- @include('layouts.partials.why-choose-section') --}}
     {{-- @include('layouts.partials.portfolio-section') --}}
     {{-- @include('layouts.partials.testimonials-section') --}}
-    {{-- @include('layouts.partials.blog-section') --}}
+    @include('layouts.partials.blog-section')
 
 @endsection
 

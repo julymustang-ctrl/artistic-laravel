@@ -55,7 +55,7 @@
                         'image' => 'author-1.jpg',
                         'title' => 'Kişisel Marka Geliştirme',
                         'category' => 'Influencer Pazarlama',
-                        'description' => 'Sektör uzmanının kişisel markasını geliştirerek takipçi sayısını 50K\'ya çıkardık.',
+                        'description' => 'Sektör uzmanının kişisel markasını geliştirerek takipçi sayısını 50K\\\'ya çıkardık.',
                         'delay' => '1s'
                     ]
                 ];

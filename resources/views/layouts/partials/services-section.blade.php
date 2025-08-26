@@ -52,7 +52,7 @@
                 [
                     'icon' => 'fa-users',
                     'title' => 'Kurumsal Kimlik',
-                    'description' => 'Markanızın DNA'sını oluşturuyor, görsel kimliğinizi dijital ve fiziksel tüm platformlarda tutarlı ve etkileyici şekilde yansıtıyoruz.',
+                    'description' => 'Markanızın DNA\'sını oluşturuyor, görsel kimliğinizi dijital ve fiziksel tüm platformlarda tutarlı ve etkileyici şekilde yansıtıyoruz.',
                     'link' => '#',
                     'features' => ['Logo Tasarım', 'Kurumsal Renk Paleti', 'Marka Kılavuzu']
                 ]

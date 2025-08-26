@@ -60,7 +60,7 @@
                         'name' => 'Zeynep Koç',
                         'position' => 'Marka Danışmanı, Personal Brand Expert',
                         'image' => 'satisfy-client-img-3.jpg',
-                        'content' => 'Kişisel markamı geliştirme sürecinde Source of Agency ile çalışmak en doğru kararlardan biriydi. LinkedIn ve Instagram\'da thought leader haline gelmemi sağladılar. Danışmanlık taleplerinde %500 artış yaşadım.',
+                        'content' => 'Kişisel markamı geliştirme sürecinde Source of Agency ile çalışmak en doğru kararlardan biriydi. LinkedIn ve Instagram\\\'da thought leader haline gelmemi sağladılar. Danışmanlık taleplerinde %500 artış yaşadım.',
                         'rating' => 5,
                         'delay' => '1s'
                     ]

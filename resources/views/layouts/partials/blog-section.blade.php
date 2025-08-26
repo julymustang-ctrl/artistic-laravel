@@ -18,7 +18,7 @@
                     [
                         'title' => 'Sosyal Medya Stratejisinde 2025 Trendleri',
                         'image' => 'Sosyal-Medya-Stratejisinde-2025-Trendleri.jpg',
-                        'excerpt' => '2025 yılında yapay zeka, kısa videolar ve mikro influencer'lar sosyal medya dünyasını şekillendiriyor.',
+                        'excerpt' => '2025 yılında yapay zeka, kısa videolar ve mikro influencer\'lar sosyal medya dünyasını şekillendiriyor.',
                         'date' => '1 Ağustos 2025',
                         'author' => 'Source of Agency Ekibi',
                         'slug' => 'sosyal-medya-stratejisinde-2025-trendleri',
@@ -34,7 +34,7 @@
                         'delay' => '0.2s'
                     ],
                     [
-                        'title' => 'Instagram'da Organik Büyümenin Temel Kuralları',
+                        'title' => 'Instagram\'da Organik Büyümenin Temel Kuralları',
                         'image' => 'Instagramda-Organik-Buyumenin-Temel-Kurallari.png',
                         'excerpt' => 'Organik takipçi artışı için kanıtlanmış stratejiler ve Instagram algoritmasının sırları.',
                         'date' => '2 Ağustos 2025',

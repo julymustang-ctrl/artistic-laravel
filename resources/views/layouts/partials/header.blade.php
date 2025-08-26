@@ -3,8 +3,8 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <!-- Logo Start -->
-                <a class="navbar-brand" href="{{ route('home') }}">
-                    <img src="{{ asset('images/logo.svg') }}" alt="Logo">
+                <a class="navbar-brand" href="{{ route('anasayfa') }}">
+                    <img src="{{ asset('images/logo.svg') }}" alt="Source Of Agency Logo">
                 </a>
                 <!-- Logo End -->
 
@@ -12,34 +12,20 @@
                 <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item"><a class="nav-link" href="{{ route('anasayfa') }}">Anasayfa</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('hakkimizda') }}">Hakkımızda</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('hizmetlerimiz') }}">Hizmetlerimiz</a></li>
                             <li class="nav-item submenu">
-                                <a class="nav-link" href="{{ route('home') }}">Ana Sayfa</a>
+                                <a class="nav-link" href="#">Kurumsal</a>
                                 <ul>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Ana Sayfa - Ana</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('home.image') }}">Ana Sayfa - Görsel</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('home.slider') }}">Ana Sayfa - Slider</a></li>
-                                </ul>
-                            </li>                                
-                            <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">Hakkımızda</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">Hizmetler</a></li>
-                            <li class="nav-item submenu">
-                                <a class="nav-link" href="#">Sayfalar</a>
-                                <ul>                                        
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('services.show', 1) }}">Hizmet Detayları</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('blog.index') }}">Blog</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('blog.show', 1) }}">Blog Detayları</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('projects') }}">Projeler</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('projects.show', 1) }}">Proje Detayları</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('team') }}">Ekip</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('team.show', 1) }}">Ekip Detayları</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('pricing') }}">Fiyat Planları</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('testimonials') }}">Referanslar</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('gallery.images') }}">Fotoğraf Galerisi</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('gallery.videos') }}">Video Galerisi</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('faqs') }}">Sık Sorulan Sorular</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('takim-arkadaslarimiz') }}">Takım Arkadaşlarımız</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('yorumlar') }}">Müşteri Yorumları</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('referanslar') }}">Referanslar</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('video-gallery') }}">Videolarımız</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">İletişim</a></li>                             
+                            <li class="nav-item"><a class="nav-link" href="{{ route('blog') }}">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('iletisim') }}">İletişim</a></li>                             
                         </ul>
                     </div>
 
@@ -48,9 +34,9 @@
                         <!-- Header Social Links Start -->
                         <div class="header-social-links">
                             <ul>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61562020162055" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/sourceofagencytr" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/source-of-agency/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <!-- Header Social Links End -->
@@ -74,8 +60,8 @@
                                             <img src="{{ asset('images/icon-phone-accent.svg') }}" alt="">
                                         </div>
                                         <div class="header-contact-box-content">
-                                            <h3>telefon</h3>
-                                            <p>{{ config('app.contact_phone', '+123 456 789') }}</p>
+                                            <h3>Telefon</h3>
+                                            <p>+90 232 570 37 44</p>
                                         </div>
                                     </div>
                                     <!-- Header Contact Box End -->
@@ -86,8 +72,8 @@
                                             <img src="{{ asset('images/icon-mail-accent.svg') }}" alt="">
                                         </div>
                                         <div class="header-contact-box-content">
-                                            <h3>e-posta</h3>
-                                            <p>{{ config('app.contact_email', 'info@domainname.com') }}</p>
+                                            <h3>E-posta</h3>
+                                            <p>info@sourceofagency.com</p>
                                         </div>
                                     </div>
                                     <!-- Header Contact Box End -->
@@ -98,19 +84,19 @@
                                             <img src="{{ asset('images/icon-location-accent.svg') }}" alt="">
                                         </div>
                                         <div class="header-contact-box-content">
-                                            <h3>adres</h3>
-                                            <p>{{ config('app.contact_address', '123 Creative Lane London, SW1A 1AA United Kingdom') }}</p>
+                                            <h3>Adres</h3>
+                                            <p>Çınarlı Mah. Ankara Asfaltlı Cad. No: 15 Kat: 39 Daire: 391<br>Mistral Office Tower, Konak/İzmir</p>
                                         </div>
                                     </div>
                                     <!-- Header Contact Box End -->
 
                                     <!-- Header Social Links Start -->
                                     <div class="header-social-links sidebar-social-links">
-                                        <h3>bağlantıda kalın</h3>
+                                        <h3>Bağlantıda Kalın</h3>
                                         <ul>
-                                            <li><a href="{{ config('app.social_twitter', '#') }}" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                            <li><a href="{{ config('app.social_facebook', '#') }}" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a href="{{ config('app.social_instagram', '#') }}" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://www.facebook.com/profile.php?id=61562020162055" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://www.instagram.com/sourceofagencytr" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/company/source-of-agency/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                     <!-- Header Social Links End -->

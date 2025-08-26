@@ -18,44 +18,48 @@ use App\Http\Controllers\Admin\ServiceController as AdminServiceController;
 use App\Http\Controllers\Admin\BlogPostController as AdminBlogPostController;
 use App\Http\Controllers\Admin\ProjectController as AdminProjectController;
 
-// Home routes
-Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/home-image', [HomeController::class, 'image'])->name('home.image');
-Route::get('/home-slider', [HomeController::class, 'slider'])->name('home.slider');
+// Ana Sayfa (Homepage)
+Route::get('/', [HomeController::class, 'index'])->name('anasayfa');
+Route::get('/anasayfa', [HomeController::class, 'index'])->name('home');
 
-// About routes
-Route::get('/about', [AboutController::class, 'index'])->name('about');
+// Hakkımızda (About Us)
+Route::get('/hakkimizda', [AboutController::class, 'index'])->name('hakkimizda');
 
-// Service routes
-Route::get('/services', [ServiceController::class, 'index'])->name('services');
-Route::get('/services/{service}', [ServiceController::class, 'show'])->name('services.show');
+// Hizmetlerimiz (Our Services)
+Route::get('/hizmetlerimiz', [ServiceController::class, 'index'])->name('hizmetlerimiz');
+Route::get('/hizmetlerimiz/{service}', [ServiceController::class, 'show'])->name('hizmetlerimiz.show');
 
-// Blog routes
-Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+// Kurumsal Pages (Corporate)
+Route::get('/takim-arkadaslarimiz', [TeamController::class, 'index'])->name('takim-arkadaslarimiz');
+Route::get('/takim-arkadaslarimiz/{member}', [TeamController::class, 'show'])->name('takim-arkadaslarimiz.show');
+Route::get('/yorumlar', [PageController::class, 'testimonials'])->name('yorumlar');
+Route::get('/referanslar', [ProjectController::class, 'index'])->name('referanslar');
+Route::get('/referanslar/{project}', [ProjectController::class, 'show'])->name('referanslar.show');
+Route::get('/video-gallery', [GalleryController::class, 'videos'])->name('video-gallery');
+
+// Blog
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/blog/{post}', [BlogController::class, 'show'])->name('blog.show');
 
-// Project routes
-Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
-Route::get('/projects/{project}', [ProjectController::class, 'show'])->name('projects.show');
+// İletişim (Contact)
+Route::get('/iletisim', [ContactController::class, 'index'])->name('iletisim');
+Route::post('/iletisim', [ContactController::class, 'store'])->name('iletisim.store');
 
-// Team routes
-Route::get('/team', [TeamController::class, 'index'])->name('team');
-Route::get('/team/{member}', [TeamController::class, 'show'])->name('team.show');
+// Additional Turkish Pages
+Route::get('/sss', [PageController::class, 'faqs'])->name('sss');
+Route::get('/gizlilik-politikasi', [PageController::class, 'privacy'])->name('gizlilik-politikasi');
+Route::get('/sartlar-ve-kosullar', [PageController::class, 'terms'])->name('sartlar-ve-kosullar');
 
-// Gallery routes
-Route::get('/gallery/images', [GalleryController::class, 'images'])->name('gallery.images');
-Route::get('/gallery/videos', [GalleryController::class, 'videos'])->name('gallery.videos');
-
-// Contact routes
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
-
-// Additional pages
-Route::get('/pricing', [PageController::class, 'pricing'])->name('pricing');
-Route::get('/testimonials', [PageController::class, 'testimonials'])->name('testimonials');
-Route::get('/faqs', [PageController::class, 'faqs'])->name('faqs');
-Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
-Route::get('/terms', [PageController::class, 'terms'])->name('terms');
+// Legacy English routes (redirects)
+Route::get('/about', function() { return redirect()->route('hakkimizda'); });
+Route::get('/services', function() { return redirect()->route('hizmetlerimiz'); });
+Route::get('/team', function() { return redirect()->route('takim-arkadaslarimiz'); });
+Route::get('/projects', function() { return redirect()->route('referanslar'); });
+Route::get('/contact', function() { return redirect()->route('iletisim'); });
+Route::get('/testimonials', function() { return redirect()->route('yorumlar'); });
+Route::get('/faqs', function() { return redirect()->route('sss'); });
+Route::get('/privacy', function() { return redirect()->route('gizlilik-politikasi'); });
+Route::get('/terms', function() { return redirect()->route('sartlar-ve-kosullar'); });
 
 // Newsletter subscription
 Route::post('/newsletter/subscribe', [ContactController::class, 'newsletter'])->name('newsletter.subscribe');

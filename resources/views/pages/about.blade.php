@@ -15,7 +15,7 @@
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Hakkı<span>mızda</span></h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ route('home') }}">Ana Sayfa</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('anasayfa') }}">Ana Sayfa</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Hakkımızda</li>
                             </ol>
                         </nav>

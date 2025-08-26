@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
     <!-- Page Title -->
-    <title>@yield('title', 'Artistic - Social Media Marketing Agency')</title>
+    <title>@yield('title', 'Source Of Agency | İzmir Sosyal Medya & Reklam Ajansı')</title>
     
     <!-- Meta Tags -->
-    <meta name="description" content="@yield('meta_description', 'Grow your brand with powerful social media strategies. Elevate your online presence, engage your audience, and achieve meaningful results.')">
-    <meta name="keywords" content="@yield('meta_keywords', 'social media marketing, brand growth, digital marketing, social media strategies, online presence')">
-    <meta name="author" content="Artistic Agency">
+    <meta name="description" content="@yield('meta_description', 'Source Of Agency ile İzmir\'de sosyal medya yönetimi, dijital reklam, web tasarım ve prodüksiyon hizmetlerinde markanıza değer katın.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Source Of Agency, İzmir sosyal medya ajansı, dijital reklam yönetimi, web tasarım, prodüksiyon hizmetleri, sosyal medya yönetimi')">
+    <meta name="author" content="Source Of Agency">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">

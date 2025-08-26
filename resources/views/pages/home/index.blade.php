@@ -1,8 +1,8 @@
 @extends('layouts.theme')
 
-@section('title', 'Artistic - Sosyal Medya Pazarlama Ajansı')
-@section('meta_description', 'Güçlü sosyal medya stratejileri ile markanızı büyütün. Online varlığınızı artırın, hedef kitlenizle etkileşime geçin ve anlamlı sonuçlar elde edin.')
-@section('meta_keywords', 'sosyal medya pazarlama, marka büyütme, dijital pazarlama, sosyal medya stratejileri, online varlık')
+@section('title', 'Source Of Agency | İzmir Sosyal Medya & Reklam Ajansı')
+@section('meta_description', 'Source Of Agency ile İzmir\'de sosyal medya yönetimi, dijital reklam, web tasarım ve prodüksiyon hizmetlerinde markanıza değer katın.')
+@section('meta_keywords', 'Source Of Agency, İzmir sosyal medya ajansı, dijital reklam yönetimi, web tasarım, prodüksiyon hizmetleri, sosyal medya yönetimi')
 
 @section('content')
     <!-- Hero Section Start-->
@@ -33,7 +33,7 @@
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.25s">
-                            <a href="{{ route('contact') }}" class="btn-default">Başlayın</a>
+                            <a href="{{ route('iletisim') }}" class="btn-default">Başlayın</a>
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -172,7 +172,7 @@
                             <div class="about-us-footer wow fadeInUp" data-wow-delay="0.4s">
                                 <!-- About Us Button Start -->
                                 <div class="about-us-btn">
-                                    <a href="{{ route('about') }}" class="btn-default">Daha Fazla</a>
+                                    <a href="{{ route('hakkimizda') }}" class="btn-default">Daha Fazla</a>
                                 </div>
                                 <!-- About Us Button End -->
 
